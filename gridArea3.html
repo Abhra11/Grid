@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griding Again</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,150px);
+            gap:50px;
+            width: 80%;
+            margin: auto;
+            margin-top: 100px;
+            grid-template-areas: "a b b c"
+                                 "e e g h"
+                                 " i j k k";
+        }
+        body>div{
+            
+            border-radius: 5px;
+            background-color: seagreen;
+        }
+        body>div:nth-child(1){
+            grid-area: a;
+        }
+        body>div:nth-child(2){
+            grid-area: b;
+        }
+        body>div:nth-child(3){
+            grid-area: c;
+        }
+        body>div:nth-child(4){
+            grid-area: d;
+        }
+        body>div:nth-child(5){
+            grid-area: e;
+        }
+        body>div:nth-child(6){
+            grid-area: f;
+        }
+        body>div:nth-child(7){
+            grid-area: g;
+        }
+        body>div:nth-child(8){
+            grid-area: h;
+        }
+        body>div:nth-child(9){
+            grid-area: i;
+        }
+        body>div:nth-child(10){
+            grid-area: j;
+        }
+        body>div:nth-child(11){
+            grid-area: k;
+        }
+        body>div:nth-child(12){
+            grid-area: l;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+    <div><h1></h1></div>
+</body>
+</html>
