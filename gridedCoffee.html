@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid the Coffee Menu</title>
+    <style>
+        *{
+            background-color:#faf8fb;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 150px);
+           
+            gap: 30px;
+            margin:auto;
+            margin-top: 30px;
+            width:80%;
+           
+            
+        }
+        #grid div{
+            
+            border-radius: 10px;
+           
+            
+            
+        }
+        #grid>div>div:first-child{
+            display:flex;
+            justify-content: space-between;
+            padding:0 30px 0 30px;
+        }
+        #grid>div>div:last-child{
+            padding:0 30px 0 30px;
+        }
+        #grid>div>div:first-child>h2+h2{
+            color: #b98c3d;
+        }
+        .test{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+        <div class="test">
+            <div>
+                <h2>Cappuccino</h2>
+                <h2>$49</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiasd elit. Nobis officiis impedit eum?</p>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
